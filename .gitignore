@@ -1,0 +1,12 @@
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+
+# Editor
+.vscode/
+.idea/
+
+# Node (only if you later add tooling — not required to run this project)
+node_modules/

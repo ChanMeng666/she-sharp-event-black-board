@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>She Sharp — Event Welcome Board</title>
+  <link rel="icon" href="assets/brand/she-sharp-logo-purple-dark-130x130.svg" />
+
+  <!-- Brand fonts: Montserrat (body/headings) + Carattere (script accent) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Carattere&family=Montserrat:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <!-- Living background -->
+  <div class="bg-orbits" aria-hidden="true"><span></span><span></span><span></span></div>
+
+  <!-- Persistent brand wordmark -->
+  <img class="brand-mark" src="assets/brand/she-sharp-logo-white.png" alt="She Sharp" />
+
+  <!-- Scenes are injected here by js/render.js -->
+  <main class="stage" id="stage"></main>
+
+  <!-- Progress dots, pause badge, keyboard hint -->
+  <div class="dots" id="dots" aria-hidden="true"></div>
+  <div class="paused-badge">Paused</div>
+  <div class="hint">F fullscreen · ←/→ navigate · Space pause · R reload</div>
+
+  <!-- Vendored, offline QR generator (exposes window.QRCode) -->
+  <script src="assets/vendor/qrcode.min.js"></script>
+
+  <!-- Content + settings (edit config/event.js for each event) -->
+  <script src="config/event.js"></script>
+  <script src="config/settings.js"></script>
+
+  <!-- App logic -->
+  <script src="js/live-fetch.js"></script>
+  <script src="js/render.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
