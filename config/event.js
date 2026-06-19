@@ -19,28 +19,29 @@ window.SHESHARP_EVENT = {
   // ── Hero scene ──────────────────────────────────────────────────────────
   // The big glowing title. "sharp" is automatically rendered in the mint
   // script font, matching the She Sharp brand wordmark.
-  presenter: "Peyvand Academy & Ministry of Education present",
+  presenter: "Peyvand Academy · Ministry of Education · Little Engineers present",
   title: "she sharp",
   tagline: "Youth Tech Series",
 
   // ── Event details scene ─────────────────────────────────────────────────
-  subtitle: "AI & Electronics Workshop for Youth (Ages 12–18)",
-  date: "June 13, 2026",
+  // Source: shesharp.org.nz/events/peyvand-academy-20-june-2026
+  subtitle: "Electronics Workshop for Youth (Ages 12–18)",
+  date: "June 20, 2026",
   time: "2:30pm – 4:30pm NZST",
   venue: "Fruitvale Primary School",
-  city: "Auckland, New Zealand",
+  city: "40 Fruitvale Road, Auckland",
 
   // ── Register scene ──────────────────────────────────────────────────────
   // A QR code is generated from this URL. Leave "" to hide the register scene.
-  registrationUrl: "https://www.shesharp.org.nz/events",
+  registrationUrl: "https://events.humanitix.com/youth-tech-series-electronics-workshop",
   registrationLabel: "Scan to register",
 
   // ── Partner / sponsor wall ──────────────────────────────────────────────
   // Logos shown on a glassmorphism wall. Add as many as you like.
   partners: [
-    { name: "Peyvand Academy",       logo: "assets/partners/fonterra-logo.svg" },
-    { name: "Ministry of Education", logo: "assets/partners/myob-logo.svg" },
-    { name: "Little Engineers",      logo: "assets/partners/mailchimp.svg" },
+    { name: "Peyvand Academy",       logo: "assets/partners/peyvand-academy.jpg" },
+    { name: "Ministry of Education", logo: "assets/partners/MOE.png" },
+    { name: "Little Engineers",      logo: "assets/partners/little-engineers.jpg" },
   ],
   partnersHeading: "In partnership with",
 
