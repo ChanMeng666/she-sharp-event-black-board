@@ -12,8 +12,10 @@ window.SHESHARP_SETTINGS = {
   //   "event"     → subtitle / date / time / venue card
   //   "speakers"  → speaker grid
   //   "partners"  → partner / sponsor logo wall
-  //   "register"  → QR code to register
-  scenes: ["hero", "event", "speakers", "partners", "register"],
+  //   "register"  → QR code to register (off by default: on event day,
+  //                 guests have already registered, so it's not needed —
+  //                 add "register" back to this list if you ever want it)
+  scenes: ["hero", "event", "speakers", "partners"],
 
   // Seconds each scene stays on screen before crossfading to the next.
   rotationSeconds: 12,
